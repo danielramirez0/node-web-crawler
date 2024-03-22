@@ -1,0 +1,30 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "Web link collector",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielramirez0/node-web-crawler.git"
+  },
+  "keywords": [
+    "web-crawler",
+    "node.js"
+  ],
+  "author": "Daniel Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielramirez0/node-web-crawler/issues"
+  },
+  "homepage": "https://github.com/danielramirez0/node-web-crawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
