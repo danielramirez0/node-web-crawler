@@ -7,9 +7,14 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`Crawling ${argv[2]}`);
+  const baseURL = process.argv[2];
+  const currentURL = process.argv[2];
+    const pages = {};
 
-  await crawlPage(argv[2]);
+  console.log(`Crawling ${baseURL}`);
+
+  const links = await crawlPage(baseURL, currentURL, pages);
+  console.log(links);
 }
 
 main();
